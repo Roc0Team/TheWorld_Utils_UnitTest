@@ -57,7 +57,7 @@ add_library(TheWorld_Utils_UnitTest MODULE
 target_include_directories(TheWorld_Utils_UnitTest PRIVATE
 	"${THEWORLD_VSTEST_INCLUDE_DIR}"
 	"${THEWORLD_EXTERNAL_ROOT}/TheWorld_Utils"
-	"${THEWORLD_EXTERNAL_ROOT}/TheWorld_Utils/plog/include"
+	"${THEWORLD_EXTERNAL_ROOT}/plog/include"
 	"${THEWORLD_EXTERNAL_ROOT}/GSL/include"
 	"${THEWORLD_EXTERNAL_ROOT}/eigen-5.0.0"
 )
