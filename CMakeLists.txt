@@ -59,7 +59,7 @@ target_include_directories(TheWorld_Utils_UnitTest PRIVATE
 	"${THEWORLD_EXTERNAL_ROOT}/TheWorld_Utils"
 	"${THEWORLD_EXTERNAL_ROOT}/plog/include"
 	"${THEWORLD_EXTERNAL_ROOT}/GSL/include"
-	"${THEWORLD_EXTERNAL_ROOT}/eigen-5.0.0"
+	"${THEWORLD_EXTERNAL_ROOT}/eigen"
 )
 target_compile_features(TheWorld_Utils_UnitTest PRIVATE cxx_std_20)
 target_compile_definitions(TheWorld_Utils_UnitTest PRIVATE
